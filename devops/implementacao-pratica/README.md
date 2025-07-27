@@ -23,7 +23,7 @@ A empresa tem um tempo médio entre a entrega do código e o deploy de 2 dias at
 
 **Solução Proposta**
 
-Deve-se automatizar os processos tanto de deploy quanto de testes atuais e melhorar essa fase de entrega do código, tanto na parte de reuniões ou ritos de entrega quanto na questão de softwares para actions.
+Deve-se automatizar os processos tanto de deploy quanto de testes atuais e melhorar essa fase de entrega do código, tanto na parte de reuniões ou ritos de entrega quanto na questão de softwares para ci/cd.
 
 Na questão de automação, podemos usar o [Github Actions](https://github.com/features/actions) ou [Jenkins](https://www.jenkins.io/) para fazer migrações, build e outros scripts de produção automaticamente na máquina que roda os produtos em questão. Antes disso porém, para evitar problemas na produção, também podemos, com definições integradas de Dev e Ops, rodar testes de integração com [Vitest](https://vitest.dev/) (ou similares) e E2E se necessário.
 
